@@ -29,12 +29,12 @@ A project based on helping an individual make informed financial decision based 
 5. Use the command <java MainClass.java + enter> command to run you application.
 
 #Classes involved
-1. main class budgeting-all executions took place here(mehotd calls and instantiations)
+1. main class budgeting-all executions took place here(method calls and instantiations)
 2. input-involved in taking inputs of various datatypes
 3. abstract class expense - where the abstract calculateLoan(), method was created
 4. homeloan subclass of expense(overrides the calculate loan and implements it)
 5. Vehicle - parent class of car to ensure good use of inheritence and encasulation
-6. Car class-to just ask the user if they want a car, or not then the main class executes the tasks per carchoice or decision.
+6. Car class-to just ask the user if they want a car, or not then the main class executes the tasks per car choice or decision.
 7. interface percentile to create classes that implement the method in percentile for the decision of percentage control and decision.
 8. classes to imlpement the interface are PercentageOver, PercentageUnder, and PercentageControl and all these worked together with PercentageControl delegating the task of notifying the user.
    
