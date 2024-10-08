@@ -1,10 +1,13 @@
 # COM1321PROJECT
+
 #Description
+
 A project based on helping an individual make informed financial decision based on their form of income.
+
 # Participants GroupA
-RAMALATA MUFUNWAWANGA 23030316
 MPHAPHULI NDIVHUWO 24002296
 MUSITHA HANGWANI  24075938
+RAMALATA MUFUNWAWANGA 23030316
 FAKUDE D 23022950
 NEVHUHULWI T 22000430
 NELOMBA AZWINDINI ZELDAH 23022363
@@ -12,7 +15,8 @@ Mudau M 24076021
 NGWEPE KS 24048172
 NALEDZANI OC 24004824
 POONE O 22021254
-RAMAVHULELA FUNANANI 22021448                                               
+RAMAVHULELA FUNANANI 22021448 
+Makatshaba DK 23026624
 GAMA SIZOLWETHU.C 24053119.                                      
 MODIBA NT 21000689
 NETSHITANGANI V 23010754
@@ -30,3 +34,23 @@ NETSHITANGANI V 23010754
 3. abstract class expense - where the abstract calculateLoan(), method was created
 4. homeloan subclass of expense(overrides the calculate loan and implements it)
 5. Vehicle - parent class of car to ensure good use of inheritence and encasulation
+6. Car class-to just ask the user if they want a car, or not then the main class executes the tasks per carchoice or decision.
+7. interface percentile to create classes that implement the method in percentile for the decision of percentage control and decision.
+8. classes to imlpement the interface are PercentageOver, PercentageUnder, and PercentageControl and all these worked together with PercentageControl delegating the task of notifying the user.
+   
+#Concepts Involved
+1. Package imports, for lists and Scanners.
+2. Variable usage alongside the operators.
+3. control flow by while, for, and if else.
+4. Classes
+5. Inheritence, encapsulation and abstraction
+6. object passing
+7. type casting
+8. method overrides
+9. exeption handling to avoid lossy conversions
+
+#functionallity
+The program asks for the income input, and all the deductions an average adult is prone to experience.
+The program enquires whether the user wants to purchase property or rent.
+The program proceeds to add the value to the other expenses and display that and proceed to ask if the user wants to purchase a car and does tasks by decision in choice of transportation.
+Through the choice it will workout certain inputs and terminate when done.
